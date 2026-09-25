@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcelo Moreno — CV Online</title>
+    <meta name="description" content="Currículo online de Marcelo Moreno — Estudante de Programação.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+<header class="topo" id="topo">
+    <div class="topo-conteudo">
+        <a href="#inicio" class="logo">
+            <span class="logo-iniciais">MM</span>
+            <span class="logo-nome">Marcelo Moreno<small>CV Online</small></span>
+        </a>
+
+        <nav class="nav" id="nav">
+            <a href="#perfil">Perfil</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#competencias">Competências</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contacto" class="nav-cta">Contacto</a>
+        </nav>
+
+        <button class="botao botao-primario topo-bt" id="btnImprimir" type="button">⤓ Descarregar CV</button>
+
+        <button class="botao-menu" id="btnMenu" type="button" aria-label="Abrir menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main>
+
+    <section class="hero" id="inicio">
+        <div class="hero-brilho brilho-1"></div>
+        <div class="hero-brilho brilho-2"></div>
+
+        <div class="hero-conteudo">
+            <div class="hero-texto">
+                <span class="badge-estado"><i></i> Disponível para oportunidades</span>
+                <p class="hero-ola">Olá, o meu nome é</p>
+                <h1>Marcelo <span class="destaque">Moreno</span></h1>
+                <h2 class="hero-tipo">Estudante de Programação <span class="cursor">|</span></h2>
+                <p class="hero-descricao">
+                    Sou estudante de programação. Unio a lógica técnica da resolução de problemas
+                    à criatividade do desenvolvimento web, com foco em escrever código limpo,
+                    criar interfaces responsivas e resolver desafios de forma prática.
+                </p>
+
+                <div class="hero-botoes">
+                    <a href="#contacto" class="botao botao-primario">Falar comigo</a>
+                    <a href="#projetos" class="botao botao-claro">Ver projetos</a>
+                    <button class="botao botao-fantasma" id="btnImprimirHero" type="button">⤓ Guardar em PDF</button>
+                </div>
+
+                <div class="hero-links">
+                    <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="mailto:marcelomorenodeoliveira@gmail.com">Email</a>
+                </div>
+            </div>
+
+            <div class="hero-cartao">
+                <div class="hero-avatar">MM</div>
+                <div class="hero-ficha">
+                    <div class="ficha-linha"><span>Nome</span><strong>Marcelo Moreno</strong></div>
+                    <div class="ficha-linha"><span>Função</span><strong>Estudante de Programação</strong></div>
+                    <div class="ficha-linha"><span>Área</span><strong>Web & Manutenção</strong></div>
+                    <div class="ficha-linha"><span>Email</span><strong>marcelomorenodeoliveira@gmail.com</strong></div>
+                    <div class="ficha-linha"><span>Telefone</span><strong>+351 910 673 983</strong></div>
+                    <div class="ficha-linha"><span>Local</span><strong>Barcelos · Famalicão · Póvoa de Varzim</strong></div>
+                </div>
+                <div class="hero-cartao-rodape">
+                    <span>💻 Desenvolvimento web</span>
+                    <span>🛠️ 5+ competências</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat"><strong class="contador" data-objetivo="3">0</strong><span>Projetos publicados</span></div>
+            <div class="stat"><strong class="contador" data-objetivo="5" data-sufixo="+">0</strong><span>Competências técnicas</span></div>
+            <div class="stat"><strong class="contador" data-objetivo="4">0</strong><span>Projetos desenvolvidos</span></div>
+            <div class="stat"><strong class="contador" data-objetivo="3">0</strong><span>Áreas de saber</span></div>
+        </div>
+    </section>
+
+    <section class="secao" id="perfil">
+        <div class="secao-cabecalho">
+            <span class="etiqueta">PERFIL</span>
+            <h2>Quem sou e o que procuro</h2>
+            <p>Uma apresentação da minha trajetória, da minha forma de trabalhar e dos meus objetivos.</p>
+        </div>
+
+        <div class="sobre-grid">
+            <article class="cartao sobre-bio">
+                <h3>👋 A minha história</h3>
+                <p>
+                    Sou estudante de programação e apaixonado por tecnologia. Aprendi na prática
+                    a importância do método, da atenção aos detalhes e da resolução metódica de
+                    problemas — e é essa atitude que aplico no desenvolvimento de software.
+                </p>
+                <p>
+                    Dedico o meu tempo a estudar HTML, CSS e JavaScript e a construir páginas e
+                    aplicações web simples, funcionais e bem apresentadas. Procuro oportunidades
+                    para crescer profissionalmente, aplicar o que aprendo e evoluir numa equipa
+                    de tecnologia.
+                </p>
+                <ul class="check-lista">
+                    <li>Foco em código limpo e interfaces responsivas</li>
+                    <li>Atitude proativa, organizada e com sentido de responsabilidade</li>
+                    <li>Boa capacidade de trabalho em equipa e comunicação</li>
+                    <li>Gosto de aprender por conta própria e pôr em prática novas ideias</li>
+                </ul>
+            </article>
+
+            <div class="sobre-coluna">
+                <article class="cartao">
+                    <h3>🎯 Objetivos profissionais</h3>
+                    <p>
+                        Iniciar-me profissionalmente como programador júnior ou estagiário,
+                        consolidar os fundamentos de desenvolvimento web e, a médio prazo,
+                        crescer numa função full-stack.
+                    </p>
+                </article>
+
+                <article class="cartao">
+                    <h3>💡 O que me destaca</h3>
+                    <div class="pilhas">
+                        <span class="pilha">Trabalho em equipa</span>
+                        <span class="pilha">Resolução de problemas</span>
+                        <span class="pilha">Organização</span>
+                        <span class="pilha">Adaptabilidade</span>
+                        <span class="pilha">Atenção ao detalhe</span>
+                        <span class="pilha">Iniciativa</span>
+                        <span class="pilha">Gestão de tempo</span>
+                        <span class="pilha">Cura técnica</span>
+                    </div>
+                </article>
+
+                <article class="cartao curiosidades">
+                    <h3>Fun facts</h3>
+                    <div class="curiosidade"><span>🔧</span><p>Antes do código, foram os circuitos e as ferramentas</p></div>
+                    <div class="curiosidade"><span>💻</span><p>Pratico programação quase todos os dias</p></div>
+                    <div class="curiosidade"><span>📚</span><p>Documentação e tutoriais são a minha rotina</p></div>
+                    <div class="curiosidade"><span>⚙️</span><p>Gosto de perceber como as coisas funcionam por dentro</p></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao secao-alternada" id="experiencia">
+        <div class="secao-cabecalho">
+            <span class="etiqueta">EXPERIÊNCIA</span>
+            <h2>Onde já trabalhei</h2>
+            <p>Percurso profissional e prático, da manutenção industrial ao desenvolvimento web.</p>
+        </div>
+
+        <div class="timeline">
+
+            <article class="timeline-item">
+                <div class="timeline-marco">Agora</div>
+                <div class="timeline-cartao cartao">
+                    <div class="timeline-topo">
+                        <div>
+                            <h3>Estudante de Programação · Projetos Web</h3>
+                            <span class="timeline-local">📍 Prática e projetos próprios</span>
+                        </div>
+                        <span class="periodo">2025 — Atual</span>
+                    </div>
+                    <p class="timeline-empresa">Autónomo · Desenvolvimento web</p>
+                    <ul class="check-lista">
+                        <li>Desenvolvimento de páginas web em HTML, CSS e JavaScript</li>
+                        <li>Criação de interfaces responsivas adaptadas a telemóvel, tablet e computador</li>
+                        <li>Prática constante através de projetos próprios e exercícios práticos</li>
+                        <li>Estudo autónomo de novas tecnologias e boas práticas de código</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span>
+                        <span class="tag">Responsivo</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-marco">Estágio</div>
+                <div class="timeline-cartao cartao">
+                    <div class="timeline-topo">
+                        <div>
+                            <h3>Estagiário — Manutenção Industrial</h3>
+                            <span class="timeline-local">📍 Contexto profissional de estágio</span>
+                        </div>
+                        <span class="periodo">Concluído</span>
+                    </div>
+                    <p class="timeline-empresa">Estágio profissional em Manutenção Industrial</p>
+                    <ul class="check-lista">
+                        <li>Manutenção e reparação de sistemas e equipamentos industriais</li>
+                        <li>Diagnóstico de avarias e aplicação de procedimentos de segurança</li>
+                        <li>Utilização de ferramentas e equipamentos de manutenção</li>
+                        <li>Trabalho em equipa, cumprimento de prazos e registos de intervenção</li>
+                        <li>Leitura de esquemas técnicos e aplicação de conhecimentos elétricos</li>
+                    </ul>
+                    <div class="tags">
+                        <span class="tag">Manutenção</span><span class="tag">Sistemas elétricos</span>
+                        <span class="tag">Ferramentas</span><span class="tag">Segurança</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="secao secao-alternada" id="competencias">
+        <div class="secao-cabecalho">
+            <span class="etiqueta">COMPETÊNCIAS</span>
+            <h2>O que sei fazer</h2>
+            <p>Competências técnicas de programação e de manutenção, além de competências pessoais.</p>
+        </div>
+
+        <div class="competencias-grid">
+            <article class="cartao">
+                <h3>💻 Desenvolvimento Web</h3>
+                <div class="barra-competencia"><div class="barra-topo"><span>HTML5 / Semântica</span><strong>85%</strong></div><div class="barra"><i data-valor="85"></i></div></div>
+                <div class="barra-competencia"><div class="barra-topo"><span>CSS3 / Flexbox / Grid</span><strong>80%</strong></div><div class="barra"><i data-valor="80"></i></div></div>
+                <div class="barra-competencia"><div class="barra-topo"><span>JavaScript (bases)</span><strong>70%</strong></div><div class="barra"><i data-valor="70"></i></div></div>
+                <div class="barra-competencia"><div class="barra-topo"><span>Design responsivo</span><strong>75%</strong></div><div class="barra"><i data-valor="75"></i></div></div>
+            </article>
+
+            <article class="cartao">
+                <h3>🛠️ Manutenção Industrial</h3>
+                <div class="barra-competencia"><div class="barra-topo"><span>Sistemas elétricos</span><strong>85%</strong></div><div class="barra"><i data-valor="85"></i></div></div>
+                <div class="barra-competencia"><div class="barra-topo"><span>Ferramentas e equipamentos</span><strong>90%</strong></div><div class="barra"><i data-valor="90"></i></div></div>
+                <div class="barra-competencia"><div class="barra-topo"><span>Diagnóstico de avarias</span><strong>85%</strong></div><div class="barra"><i data-valor="85"></i></div></div>
+                <div class="barra-competencia"><div class="barra-topo"><span>Segurança no trabalho</span><strong>88%</strong></div><div class="barra"><i data-valor="88"></i></div></div>
+            </article>
+
+            <div class="competencias-lado">
+                <article class="cartao">
+                    <h3>🧠 Competências pessoais</h3>
+                    <div class="pilhas">
+                        <span class="pilha">Trabalho em equipa</span>
+                        <span class="pilha">Comunicação</span>
+                        <span class="pilha">Resolução de problemas</span>
+                        <span class="pilha">Organização</span>
+                        <span class="pilha">Adaptabilidade</span>
+                        <span class="pilha">Iniciativa</span>
+                        <span class="pilha">Pontualidade</span>
+                        <span class="pilha">Cura do detalhe</span>
+                    </div>
+                </article>
+
+                <article class="cartao">
+                    <h3>🗂️ Lista completa</h3>
+                    <p class="lista-nota">Clica no botão para listar todas as minhas competências:</p>
+                    <button class="botao botao-primario" onclick="mostrar()" type="button">Mostrar Competências</button>
+                    <ul id="lista" class="lista-competencias"></ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao" id="projetos">
+        <div class="secao-cabecalho">
+            <span class="etiqueta">PROJETOS</span>
+            <h2>Trabalhos que desenvolvi</h2>
+            <p>Uma seleção dos projetos e páginas que já criei enquanto estudante.</p>
+        </div>
+
+        <div class="projetos-grid">
+            <article class="cartao projeto projeto-grande">
+                <div class="projeto-topo"><span class="projeto-emoji">🍴</span><span class="projeto-badge">Projeto em destaque</span></div>
+                <h3>Receitas à Mesa</h3>
+                <p>
+                    Aplicação web de receitas culinárias: pesquisa por nome e categorias,
+                    página de detalhe com ingredientes e passo a passo, favoritos guardados
+                    e formulário para adicionar novas receitas. Interface responsiva e amigável.
+                </p>
+                <div class="tags">
+                    <span class="tag">HTML</span><span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span><span class="tag">LocalStorage</span>
+                </div>
+                <div class="projeto-links"><a href="https://marcelomorenodeoliveira-hash.github.io/ReceitasAMesa/" target="_blank" rel="noopener">Ver projeto ↗</a></div>
+            </article>
+
+            <article class="cartao projeto">
+                <div class="projeto-topo"><span class="projeto-emoji">💼</span></div>
+                <h3>CV Online</h3>
+                <p>
+                    Este próprio site de currículo: layout moderno, animações, barras de
+                    competências, formulário de contacto e total responsividade.
+                </p>
+                <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+                <div class="projeto-links"><a href="#inicio">Ver projeto ↗</a></div>
+            </article>
+
+            <article class="cartao projeto">
+                <div class="projeto-topo"><span class="projeto-emoji">🧮</span></div>
+                <h3>Quiz de Conhecimentos</h3>
+                <p>
+                    Perguntas e respostas com cronómetro, pontuação e categorias.
+                    100% front-end, com dados carregados de ficheiros JSON.
+                </p>
+                <div class="tags"><span class="tag">JavaScript</span><span class="tag">JSON</span><span class="tag">CSS</span></div>
+                <div class="projeto-links"><a href="https://marcelomorenodeoliveira-hash.github.io/QuizConhecimentos/" target="_blank" rel="noopener">Ver projeto ↗</a></div>
+            </article>
+
+            <article class="cartao projeto">
+                <div class="projeto-topo"><span class="projeto-emoji">🛒</span></div>
+                <h3>Loja Online (demo)</h3>
+                <p>
+                    Loja fictícia com carrinho de compras, filtros de produtos e
+                    checkout simulado, guardando o carrinho no navegador.
+                </p>
+                <div class="tags"><span class="tag">HTML</span><span class="tag">CSS Grid</span><span class="tag">LocalStorage</span></div>
+                <div class="projeto-links"><a href="https://marcelomorenodeoliveira-hash.github.io/LojaOnline/" target="_blank" rel="noopener">Ver projeto ↗</a></div>
+            </article>
+        </div>
+    </section>
+
+    <section class="secao secao-alternada" id="contacto">
+        <div class="secao-cabecalho">
+            <span class="etiqueta">CONTACTO</span>
+            <h2>Vamos falar?</h2>
+            <p>Aberto a estágios, oportunidades e projetos. Respondo normalmente em menos de 24 horas.</p>
+        </div>
+
+        <div class="contactos-grid">
+            <div class="contactos-info">
+                <article class="cartao contacto-item">
+                    <span class="contacto-icone">✉️</span>
+                    <div><h3>Email</h3><a href="mailto:marcelomorenodeoliveira@gmail.com">marcelomorenodeoliveira@gmail.com</a></div>
+                </article>
+                <article class="cartao contacto-item">
+                    <span class="contacto-icone">📞</span>
+                    <div><h3>Telefone</h3><a href="tel:+351910673983">+351 910 673 983</a></div>
+                </article>
+                <article class="cartao contacto-item">
+                    <span class="contacto-icone">📍</span>
+                    <div><h3>Localização</h3><p>Barcelos · Famalicão · Póvoa de Varzim · Remoto</p></div>
+                </article>
+                <article class="cartao contacto-item">
+                    <span class="contacto-icone">🔗</span>
+                    <div>
+                        <h3>Redes</h3>
+                        <div class="contacto-redes">
+                            <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="cartao contacto-disponibilidade">
+                    <strong>🟢 Disponível agora</strong>
+                    <p>Aberto a propostas de estágio, part-time e projetos freelance.</p>
+                </article>
+            </div>
+
+            <form class="cartao formulario" id="formContacto" method="POST" novalidate>
+                <div class="campo">
+                    <label for="nome">Nome *</label>
+                    <input type="text" id="nome" name="nome" placeholder="O teu nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="campo">
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto">
+                        <option>Oportunidade de trabalho</option>
+                        <option>Estágio</option>
+                        <option>Projeto freelance</option>
+                        <option>Outro assunto</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreve aqui a tua mensagem..." required></textarea>
+                </div>
+                <button class="botao botao-primario botao-full" type="submit">Enviar mensagem</button>
+                <p class="formulario-nota" id="formNota" role="status"></p>
+            </form>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="cta-conteudo">
+            <h2>Pronto para trabalhar comigo?</h2>
+            <p>Descarrega o CV completo em PDF ou envia-me uma mensagem — será um prazer responder.</p>
+            <div class="hero-botoes">
+                <button class="botao botao-claro" id="btnImprimirCta" type="button">⤓ Descarregar CV (PDF)</button>
+                <a href="mailto:marcelomorenodeoliveira@gmail.com" class="botao botao-primario">Enviar email</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <div class="rodape-conteudo">
+        <div class="rodape-coluna">
+            <div class="logo">
+                <span class="logo-iniciais">MM</span>
+                <span class="logo-nome">Marcelo Moreno<small>Estudante de Programação</small></span>
+            </div>
+            <p>CV online moderno, feito à mão com HTML, CSS e JavaScript puros.</p>
+        </div>
+        <div class="rodape-coluna">
+            <h4>Navegação</h4>
+            <a href="#perfil">Perfil</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#projetos">Projetos</a>
+        </div>
+        <div class="rodape-coluna">
+            <h4>Contactos</h4>
+            <a href="mailto:marcelomorenodeoliveira@gmail.com">marcelomorenodeoliveira@gmail.com</a>
+            <a href="tel:+351910673983">+351 910 673 983</a>
+            <a href="#contacto">Formulário de contacto</a>
+        </div>
+        <div class="rodape-coluna">
+            <h4>Redes</h4>
+            <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+    </div>
+    <div class="rodape-bottom">
+        <p>© 2026 Marcelo Moreno — CV Online. Todos os direitos reservados.</p>
+        <a href="#topo" class="voltar-topo">↑ Voltar ao topo</a>
+    </div>
+</footer>
+
+<script src="script.js?v=2"></script>
+</body>
+</html>
